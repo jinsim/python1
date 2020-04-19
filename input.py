@@ -11,10 +11,10 @@ print('first name : Choi, last name: Juwon 이 출력되게 만들기')
 
 # 문제1 
 number = input("전화번호를 입력해주세요:")
-number = number.replace("-","").replace(".","").replace(",","")
+number = number.replace("-","").replace(".","").replace(" ","")
 print(number)
 
-# 문제2 
-eng = input()
-eng = eng.title().split()
-print("first name : ",eng[0],", last name: ",eng[1])
+# # 문제2 
+# eng = input()
+# eng = eng.title().split()
+# print("first name : ",eng[0],", last name: ",eng[1])
